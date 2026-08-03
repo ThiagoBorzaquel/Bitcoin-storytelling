@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=pt/">
+  <title>Bitcoin — A Verdade Por Trás da Narrativa</title>
+  <meta name="robots" content="noindex,follow">
+  <script>
+    (function(){
+      var supported=['pt','en','es'];
+      var saved='';
+      try{saved=localStorage.getItem('site-lang')||'';}catch(e){}
+      var nav=(navigator.languages&&navigator.languages[0]||navigator.language||'pt').toLowerCase();
+      var lang=supported.indexOf(saved)>=0?saved:(nav.indexOf('en')===0?'en':nav.indexOf('es')===0?'es':'pt');
+      if(location.pathname==='/'||location.pathname==='/index.html'){location.replace(lang+'/');}
+    })();
+  </script>
+</head>
+<body>
+  <p>Escolha idioma: <a href="pt/">Português</a> | <a href="en/">English</a> | <a href="es/">Español</a></p>
+  <noscript><p>JavaScript off. Use links above.</p></noscript>
+</body>
+</html>
