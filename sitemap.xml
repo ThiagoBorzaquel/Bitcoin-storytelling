@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>.</loc></url>
-  <url><loc>pt/</loc></url>
-  <url><loc>en/</loc></url>
-  <url><loc>es/</loc></url>
+  <url><loc>https://bitcoinstorytelling.com/pt/</loc></url>
+  <url><loc>https://bitcoinstorytelling.com/en/</loc></url>
+  <url><loc>https://bitcoinstorytelling.com/es/</loc></url>
 </urlset>
